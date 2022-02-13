@@ -1,0 +1,16 @@
+<%- include('./partials/header') %>
+<%- include('./partials/navbar') %>
+<%- include('./partials/banner') %>
+<div class="container-fluid">
+        <div class="display-4 text-primary text-center font-weight-bolder mt-5">
+            <u>Our Services</u>
+        </div>
+
+        <div class="row mx-auto mt-2">
+            <% services.forEach((item) => { %>
+            <div class="col col-md-4 p-3"><div class="bg bg-secondary p-4 d-flex align-items-end border border-secondary" style="background: url('https://images.pexels.com/photos/1422408/pexels-photo-1422408.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500') center center/cover; height: 15rem;"><span class="bg bg-info text-white px-4 py-2"><%= item.name %></span></div></div>
+            <% }) %>
+        </div>
+    </div>
+    
+<%- include('./partials/footer') %>

@@ -1,0 +1,31 @@
+<%- include('./partials/header') %>
+    <%- include('./partials/navbar') %>
+        <div class="container-fluid">
+            <div class="display-4 text-success text-center font-weight-bolder mt-5">
+                <u>Donate Page</u>
+            </div>
+        </div>
+
+
+
+        <form action="/donate" method="post" class="w-25 mx-auto mt-5 px-4 py-5 border border-primary rounded">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type=text" name="name" class="form-control" id="name" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="number" name="amount" class="form-control" id="amount" placeholder="Enter Amount">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Transfer</button>
+        </form>
+
+
+
+
+
+        <%- include('./partials/footer') %>

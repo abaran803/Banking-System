@@ -1,0 +1,81 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    table,
+    tr,
+    td {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    table {
+        width: 30%;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        border: 4px solid black;
+    }
+</style>
+
+<h1><u>Thanks for using our payment service</u></h1>
+<table>
+    <tr>
+        <td>From</td>
+        <td>
+            <%= customerA.name %>
+        </td>
+    </tr>
+    <tr>
+        <td>Email_ID</td>
+        <td>
+            <%= customerA.email %>
+        </td>
+    </tr>
+    <tr>
+        <td>Amount Deducted</td>
+        <td>
+            <%= amount %>
+        </td>
+    </tr>
+    <tr>
+        <td>Balance Left</td>
+        <td>
+            <%= customerA.totalBalance %>
+        </td>
+    </tr>
+</table>
+<hr>
+<table>
+    <tr>
+        <td>To</td>
+        <td>
+            <%= customerB.name %>
+        </td>
+    </tr>
+    <tr>
+        <td>Email_ID</td>
+        <td>
+            <%= customerB.email %>
+        </td>
+    </tr>
+    <tr>
+        <td>Amount Added</td>
+        <td>
+            <%= amount %>
+        </td>
+    </tr>
+    <tr>
+        <td>Balance Left</td>
+        <td>
+            <%= customerB.totalBalance %>
+        </td>
+    </tr>
+</table>

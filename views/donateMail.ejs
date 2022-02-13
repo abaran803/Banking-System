@@ -1,0 +1,51 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table,
+    tr,
+    td {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    table {
+        width: 30%;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        border: 4px solid black;
+    }
+</style>
+
+<h1><u>Thanks for Supporting Us</u></h1>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>
+            <%= name %>
+        </td>
+    </tr>
+    <tr>
+        <td>Email_ID</td>
+        <td>
+            <%= email %>
+        </td>
+    </tr>
+    <tr>
+        <td>Amount Donated</td>
+        <td>
+            <%= amount %>
+        </td>
+    </tr>
+</table>

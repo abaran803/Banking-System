@@ -1,0 +1,22 @@
+<%- include('./partials/header') %>
+<%- include('./partials/navbar') %>
+
+  <form action="/finalPayment" method="post" class="w-25 mx-auto mt-5 px-4 py-5 border border-primary rounded">
+      <input type="text" name="from" style="display: none;" value="<%= selectedCustomer._id %>">
+    <div class="form-group">
+      <label for="amount">Amount</label>
+      <input type="number" name="amount" class="form-control" id="amount" placeholder="Enter Amount">
+    </div>
+    <div class="form-group">
+      <label for="inputState">Customer Name</label>
+      <select id="inputState" class="form-control" name="to">
+        <option selected>Select a customer</option>
+          <% allCustomers.forEach(customer => { %>
+        <option value="<%= customer.id %>"><%=customer.name%></option>
+        <% }) %>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Transfer</button>
+  </form>
+  
+  <%- include('./partials/footer') %>
