@@ -11,7 +11,7 @@ exports.services = [{
     name: "Debit Card",
     description: ""
 },{
-    name: "Transfer",
+    name: "Transfer Money",
     description: ""
 },{
     name: "Cheque",
