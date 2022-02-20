@@ -45,7 +45,7 @@ const sendReciptForDonation = async (name, amount, email, res) => {
     const date = new Date();
     const currentDate = `${date.getDate()}/${date.getTime}/${date.getFullYear()}`;
     const currentTime = date.getTime();
-    ejs.renderFile(path.join(__dirname, '..', 'views') + '\\donateMail.ejs', { name, amount, currentDate, currentTime, email }, function (err, data) {
+    ejs.renderFile(path.join(__dirname, '..', 'views') + '\/donateMail.ejs', { name, amount, currentDate, currentTime, email }, function (err, data) {
         if (err) {
             console.log(err);
             res.send("Some error occured while creating template for email");
