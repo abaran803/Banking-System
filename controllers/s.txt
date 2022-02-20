@@ -1,0 +1,100 @@
+2022-02-20T15:07:40.764748+00:00 heroku[web.1]: Idling
+2022-02-20T15:07:40.766563+00:00 heroku[web.1]: State changed from up to down
+2022-02-20T15:07:41.531828+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-02-20T15:07:41.754081+00:00 heroku[web.1]: Process exited with status 143
+2022-02-20T18:15:37.522814+00:00 heroku[web.1]: Unidling
+2022-02-20T18:15:37.536508+00:00 heroku[web.1]: State changed from down to starting
+2022-02-20T18:15:39.485216+00:00 heroku[web.1]: Starting process with command `node app.js`
+2022-02-20T18:15:41.190518+00:00 app[web.1]: Server started at 59568
+2022-02-20T18:15:41.758977+00:00 heroku[web.1]: State changed from starting to up
+2022-02-20T18:15:42.592231+00:00 heroku[router]: at=info method=GET path="/" host=bankingsystem803.herokuapp.com request_id=a03c4d78-7742-4a18-822e-85759f1146d2 fwd="47.15.108.226" dyno=web.1 connect=0ms service=11ms status=304 bytes=152 protocol=https
+2022-02-20T18:15:42.798413+00:00 heroku[router]: at=info method=GET path="/" host=bankingsystem803.herokuapp.com request_id=60f8fdae-7ec7-4eb7-8784-1a1f570093e9 fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=200 bytes=6817 protocol=https
+2022-02-20T18:15:43.170253+00:00 app[web.1]: Database Connected
+2022-02-20T18:15:43.245495+00:00 heroku[router]: at=info method=GET path="/style.css" host=bankingsystem803.herokuapp.com request_id=e6839e18-34bf-46c5-83aa-8d095b6ad202 fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=151 protocol=https
+2022-02-20T18:15:43.759559+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=4ed3872c-04f1-4d38-8b30-fd6ab1273583 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:23:35.537219+00:00 heroku[router]: at=info method=GET path="/" host=bankingsystem803.herokuapp.com request_id=6a390b20-01b1-4997-b761-d57e634a2227 fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=152 protocol=https
+2022-02-20T18:23:35.907183+00:00 heroku[router]: at=info method=GET path="/style.css" host=bankingsystem803.herokuapp.com request_id=5ff322a6-9156-496c-ae1c-bb6bf34f2e8e fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=151 protocol=https
+2022-02-20T18:23:36.246388+00:00 heroku[router]: at=info method=GET path="/style.css" host=bankingsystem803.herokuapp.com request_id=4d5c4ce7-4058-491d-9877-b61b87ed1ed1 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:23:36.494709+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=9ee1aba7-1ce0-4a36-a36d-1ed9f9b6bc00 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:23:43.334574+00:00 heroku[router]: at=info method=GET path="/customers" host=bankingsystem803.herokuapp.com request_id=0a90e38a-b46e-4593-88b9-b4cdde0e27e8 fwd="47.15.108.226" dyno=web.1 connect=0ms service=227ms status=304 bytes=152 protocol=https
+2022-02-20T18:23:43.703611+00:00 heroku[router]: at=info method=GET path="/style.css" host=bankingsystem803.herokuapp.com request_id=b3f943c6-e3b7-4fcd-96b0-f8dcc81311a8 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:23:44.154448+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=5708f7e5-92d2-491a-9432-b2ce7500b6e1 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:23:51.337679+00:00 heroku[router]: at=info method=POST path="/payment" host=bankingsystem803.herokuapp.com request_id=b68a4ae7-bcf6-4372-b3bd-7c3f56367fbe fwd="47.15.108.226" dyno=web.1 connect=0ms service=445ms status=200 bytes=4119 protocol=https
+2022-02-20T18:23:51.743635+00:00 heroku[router]: at=info method=GET path="/style.css" host=bankingsystem803.herokuapp.com request_id=76da9e38-a6f9-407f-981f-3f9ec7e5bee6 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:23:52.203792+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=c947db4f-b3ce-4537-951f-1dcc442dff54 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:24:00.693903+00:00 heroku[router]: at=info method=POST path="/finalPayment" host=bankingsystem803.herokuapp.com request_id=cfa7bd0b-ff24-4fe5-a584-57557ccd2fc4 fwd="47.15.108.226" dyno=web.1 connect=0ms service=216ms status=200 bytes=1728 protocol=https
+2022-02-20T18:24:01.665183+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=df2eb5b5-b347-48b5-a378-3c2476958149 fwd="47.15.108.226" dyno=web.1 connect=0ms service=3ms status=304 bytes=151 protocol=https
+2022-02-20T18:24:52.846230+00:00 app[web.1]: Some error occured while generating template for mail
+2022-02-20T18:24:52.846400+00:00 heroku[router]: at=info method=POST path="/success" host=bankingsystem803.herokuapp.com request_id=4a191f21-ce54-4214-bb30-bff3c21df2a7 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1099ms status=200 bytes=253 protocol=https
+2022-02-20T18:24:54.358582+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=c4e24080-b743-4cd4-af4d-8f7b5a49c316 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:28:56.606708+00:00 heroku[router]: at=info method=GET path="/" host=bankingsystem803.herokuapp.com request_id=8411b607-f39c-4a42-93ae-b50323b3e9e8 fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=152 protocol=https
+2022-02-20T18:28:57.020773+00:00 heroku[router]: at=info method=GET path="/style.css" host=bankingsystem803.herokuapp.com request_id=929e119b-a547-4ec2-9f2e-4c8d04495f9b fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:28:57.570639+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=f8571863-48f2-4095-be14-470998b2a294 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:28:59.642395+00:00 heroku[router]: at=info method=GET path="/transactions" host=bankingsystem803.herokuapp.com request_id=2b960089-823a-498b-a594-15da878bcd9d fwd="47.15.108.226" dyno=web.1 connect=0ms service=217ms status=200 bytes=11626 protocol=https
+2022-02-20T18:28:59.991918+00:00 heroku[router]: at=info method=GET path="/style.css" host=bankingsystem803.herokuapp.com request_id=64d9844d-6044-4be3-a221-17c6007ba67e fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=151 protocol=https
+2022-02-20T18:29:00.411012+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=84b5e690-b689-4306-a51d-48939ec9abd0 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:29:02.857040+00:00 heroku[router]: at=info method=GET path="/donate" host=bankingsystem803.herokuapp.com request_id=231987a6-53b8-4bd6-9b02-cc4566044635 fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=200 bytes=3938 protocol=https
+2022-02-20T18:29:03.280500+00:00 heroku[router]: at=info method=GET path="/style.css" host=bankingsystem803.herokuapp.com request_id=d8dca686-7f6c-4439-9d21-953ed4b25be9 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:29:03.731801+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=8342931f-cdeb-4104-8c71-eb35d3466963 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:29:13.301621+00:00 heroku[router]: at=info method=POST path="/donate" host=bankingsystem803.herokuapp.com request_id=6e84d5a7-587a-47e1-b47f-c339a008bf5b fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=200 bytes=1721 protocol=https
+2022-02-20T18:29:14.221483+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=4e30db72-ad0b-4a0e-9c9a-3725b0c76317 fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=151 protocol=https
+2022-02-20T18:29:57.081678+00:00 app[web.1]: Some error occured while creating template for email
+2022-02-20T18:29:57.081803+00:00 heroku[router]: at=info method=POST path="/donateSuccess" host=bankingsystem803.herokuapp.com request_id=4b958481-3dbe-423f-a219-336aea642adb fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=200 bytes=252 protocol=https
+2022-02-20T18:29:58.040810+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=50410a84-85d6-4f22-848e-c4790cb7d217 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:35:50.467026+00:00 app[api]: Release v18 created by user abaran803@gmail.com
+2022-02-20T18:35:50.467026+00:00 app[api]: Set EMAIL_ID config vars by user abaran803@gmail.com
+2022-02-20T18:35:50.714294+00:00 heroku[web.1]: Restarting
+2022-02-20T18:35:50.725899+00:00 heroku[web.1]: State changed from up to starting
+2022-02-20T18:35:51.396916+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-02-20T18:35:51.687951+00:00 heroku[web.1]: Process exited with status 143
+2022-02-20T18:35:53.380158+00:00 heroku[web.1]: Starting process with command `node app.js`
+2022-02-20T18:35:54.778958+00:00 app[web.1]: Server started at 25684
+2022-02-20T18:35:55.115982+00:00 heroku[web.1]: State changed from starting to up
+2022-02-20T18:35:56.802568+00:00 app[web.1]: Database Connected
+2022-02-20T18:35:58.825058+00:00 app[api]: Release v19 created by user abaran803@gmail.com
+2022-02-20T18:35:58.825058+00:00 app[api]: Set EMAIL_ID2 config vars by user abaran803@gmail.com
+2022-02-20T18:36:08.226858+00:00 app[api]: Set PWD config vars by user abaran803@gmail.com
+2022-02-20T18:36:08.226858+00:00 app[api]: Release v20 created by user abaran803@gmail.com
+2022-02-20T18:36:20.959792+00:00 heroku[web.1]: Restarting
+2022-02-20T18:36:21.120690+00:00 heroku[web.1]: State changed from up to starting
+2022-02-20T18:36:22.011486+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-02-20T18:36:22.227046+00:00 heroku[web.1]: Process exited with status 143
+2022-02-20T18:36:23.637225+00:00 heroku[web.1]: Starting process with command `node app.js`
+2022-02-20T18:36:25.230385+00:00 app[web.1]: Server started at 3031
+2022-02-20T18:36:25.525128+00:00 heroku[web.1]: State changed from starting to up
+2022-02-20T18:36:26.871839+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=eba40c4f-f772-410d-b86b-0ab747000402 fwd="47.15.108.226" dyno=web.1 connect=0ms service=12ms status=304 bytes=151 protocol=https
+2022-02-20T18:36:27.244432+00:00 app[web.1]: Database Connected
+2022-02-20T18:36:55.092076+00:00 app[web.1]: Some error occured while creating template for email
+2022-02-20T18:36:55.093951+00:00 heroku[router]: at=info method=POST path="/donateSuccess" host=bankingsystem803.herokuapp.com request_id=490730d9-0ac9-489f-ac6e-1c550ba5f029 fwd="47.15.108.226" dyno=web.1 connect=0ms service=11ms status=200 bytes=252 protocol=https
+2022-02-20T18:36:55.608540+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=8a47b1ba-a9df-402c-9963-eca46dc350ba fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=151 protocol=https
+2022-02-20T18:36:59.417763+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=2902023c-6039-4656-978b-8b7c62713628 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:39:10.000000+00:00 app[api]: Build started by user abaran803@gmail.com
+2022-02-20T18:39:26.149975+00:00 app[api]: Release v21 created by user abaran803@gmail.com
+2022-02-20T18:39:26.149975+00:00 app[api]: Deploy 59aa5186 by user abaran803@gmail.com
+2022-02-20T18:39:26.946701+00:00 heroku[web.1]: Restarting
+2022-02-20T18:39:26.994449+00:00 heroku[web.1]: State changed from up to starting
+2022-02-20T18:39:27.000000+00:00 app[api]: Build succeeded
+2022-02-20T18:39:28.003395+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2022-02-20T18:39:28.277110+00:00 heroku[web.1]: Process exited with status 143
+2022-02-20T18:39:28.788670+00:00 heroku[web.1]: Starting process with command `node app.js`
+2022-02-20T18:39:30.336344+00:00 app[web.1]: Server started at 25402
+2022-02-20T18:39:30.923841+00:00 heroku[web.1]: State changed from starting to up
+2022-02-20T18:39:32.366670+00:00 app[web.1]: Database Connected
+2022-02-20T18:44:18.264489+00:00 heroku[router]: at=info method=GET path="/" host=bankingsystem803.herokuapp.com request_id=08a66d95-f947-4230-bbb7-2cb049b2c9c4 fwd="47.15.108.226" dyno=web.1 connect=0ms service=11ms status=304 bytes=152 protocol=https
+2022-02-20T18:44:18.715480+00:00 heroku[router]: at=info method=GET path="/style.css" host=bankingsystem803.herokuapp.com request_id=8bd8d988-8fed-46b8-8e3f-2c32762714a2 fwd="47.15.108.226" dyno=web.1 connect=0ms service=3ms status=304 bytes=151 protocol=https
+2022-02-20T18:44:19.274708+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=b00d466e-c2c1-4251-ab6e-673cf2a22b0e fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=151 protocol=https
+2022-02-20T18:44:19.604770+00:00 heroku[router]: at=info method=GET path="/" host=bankingsystem803.herokuapp.com request_id=b337cf3b-ebb0-4d75-a6a6-3eb72afbad7f fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=152 protocol=https
+2022-02-20T18:44:19.944216+00:00 heroku[router]: at=info method=GET path="/style.css" host=bankingsystem803.herokuapp.com request_id=e95e555b-f37a-4c81-ad9c-7ecf21b5317a fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=151 protocol=https
+2022-02-20T18:44:20.564293+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=5e2f257f-237b-4f70-a2d4-b85ed67036b5 fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=151 protocol=https
+2022-02-20T18:44:21.794843+00:00 heroku[router]: at=info method=GET path="/donate" host=bankingsystem803.herokuapp.com request_id=5cab20ea-5012-4e9c-ab29-3276a39586de fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=200 bytes=3938 protocol=https
+2022-02-20T18:44:22.137102+00:00 heroku[router]: at=info method=GET path="/style.css" host=bankingsystem803.herokuapp.com request_id=b7f350a9-7ef6-47e7-b349-8c8ef2d93d37 fwd="47.15.108.226" dyno=web.1 connect=0ms service=3ms status=304 bytes=151 protocol=https
+2022-02-20T18:44:22.604134+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=9d6048ec-4f11-4875-8e4a-c6e1db02488a fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:44:31.890746+00:00 heroku[router]: at=info method=POST path="/donate" host=bankingsystem803.herokuapp.com request_id=545ddae0-abbb-4d3a-8758-9f16990a4b52 fwd="47.15.108.226" dyno=web.1 connect=0ms service=13ms status=200 bytes=1711 protocol=https
+2022-02-20T18:44:32.803956+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=4298df7a-709d-47c1-baaf-ae42c9a7c457 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:45:02.865482+00:00 app[web.1]: Some error occured while creating template for email
+2022-02-20T18:45:02.868001+00:00 heroku[router]: at=info method=POST path="/donateSuccess" host=bankingsystem803.herokuapp.com request_id=d98b11e8-049e-4275-a2a0-3813f8985fc5 fwd="47.15.108.226" dyno=web.1 connect=0ms service=5ms status=200 bytes=252 protocol=https
+2022-02-20T18:45:03.534669+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=c89cded5-4be0-4271-9cab-2c4f1d39fdea fwd="47.15.108.226" dyno=web.1 connect=0ms service=2ms status=304 bytes=151 protocol=https
+2022-02-20T18:48:03.282689+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=172f1ba5-ed60-4c86-8357-d0bf0b8a8cd4 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
+2022-02-20T18:48:28.137334+00:00 heroku[router]: at=info method=POST path="/donateSuccess" host=bankingsystem803.herokuapp.com request_id=1f7bd98f-c492-42fc-b2ed-b855e9bbc467 fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=200 bytes=252 protocol=https
+2022-02-20T18:48:28.137644+00:00 app[web.1]: Some error occured while creating template for email
+2022-02-20T18:48:28.632645+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=bankingsystem803.herokuapp.com request_id=180bccde-c210-4c48-9b84-a8102b39b0dd fwd="47.15.108.226" dyno=web.1 connect=0ms service=1ms status=304 bytes=151 protocol=https
