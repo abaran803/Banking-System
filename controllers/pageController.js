@@ -17,9 +17,9 @@ let transporter = nodemailer.createTransport({
 const sendReciptForTransfer = async (from, to, amount, res) => {
     const customerA = await findCustomersById(from);
     const customerB = await findCustomersById(to);
-    ejs.renderFile(path.join(__dirname, '..', 'views') + '\\paymentMail.ejs', { customerA, customerB, amount }, function (err, data) {
+    ejs.renderFile(path.join(__dirname, '..', 'views') + '\/paymentMail.ejs', { customerA, customerB, amount }, function (err, data) {
         if (err) {
-            console.log(err);
+            console.log("Some error occured while generating template for mail");
             res.send("Some error occured while generating template for mail");
         } else {
             let message = {
@@ -47,7 +47,7 @@ const sendReciptForDonation = async (name, amount, email, res) => {
     const currentTime = date.getTime();
     ejs.renderFile(path.join(__dirname, '..', 'views') + '\/donateMail.ejs', { name, amount, currentDate, currentTime, email }, function (err, data) {
         if (err) {
-            console.log(err);
+            console.log("Some error occured while creating template for email");
             res.send("Some error occured while creating template for email");
         } else {
             let message = {
@@ -58,7 +58,10 @@ const sendReciptForDonation = async (name, amount, email, res) => {
             }
             transporter.sendMail(message, function (err, info) {
                 if (err) {
-                    console.log("Some error occured while sending mail");
+                    console.log(process.env.EMAIL_ID)
+                    console.log(process.env.EMAIL_ID2)
+                    console.log(process.env.PWD)
+                    console.log(err);
                     res.send("<h1>Unable to send recipt now</h1>")
                 } else {
                     console.log(info);
