@@ -10,7 +10,7 @@ let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: process.env.EMAIL_ID,
-        pass: process.env.PWD
+        pass: process.env.PASS
     }
 });
 
@@ -60,7 +60,7 @@ const sendReciptForDonation = async (name, amount, email, res) => {
                 if (err) {
                     console.log(process.env.EMAIL_ID)
                     console.log(process.env.EMAIL_ID2)
-                    console.log(process.env.PWD)
+                    console.log(process.env.PASS)
                     console.log(err);
                     res.send("<h1>Unable to send recipt now</h1>")
                 } else {
