@@ -19,7 +19,7 @@ const sendReciptForTransfer = async (from, to, amount, res) => {
     const customerB = await findCustomersById(to);
     ejs.renderFile(path.join(__dirname, '..', 'views') + '\\paymentMail.ejs', { customerA, customerB, amount }, function (err, data) {
         if (err) {
-            console.log("Some error occured while generating template for mail");
+            console.log(err);
             res.send("Some error occured while generating template for mail");
         } else {
             let message = {
